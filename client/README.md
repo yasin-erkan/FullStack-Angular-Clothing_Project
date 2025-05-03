@@ -1,56 +1,102 @@
-# Angular Storefront FE - Crash Course
+Angular 
+# E-Commerce Platform
 
-This project is a simple storefront built with Angular, showcasing various Angular concepts including standalone apps, modules, services, components, and routing. In this tutorial, users will learn how to perform basic CRUD (Create, Read, Update, Delete) operations on products.
+[![Angular](https://img.shields.io/badge/Angular-17+-red.svg)](https://angular.io/)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Table of Contents
+A modern e-commerce platform built with Angular and Node.js.
 
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
+## Tech Stack
 
-## Features
+### Frontend
+- Angular 17+
+- SCSS for styling
+- RxJS for reactive programming
+- Angular Material (optional)
 
-- **Standalone App:** The project is structured as a standalone Angular application.
-- **Modules:** Utilizes Angular modules for better organization and separation of concerns.
-- **Services:** Demonstrates the use of Angular services for data management and business logic.
-- **Components:** Various components for different parts of the storefront, like product listing, editing, and addition.
-- **Routing:** Implements Angular routing to navigate between different sections of the application.
-- **CRUD Operations:** Users can perform Create, Read, Update, and Delete operations on products.
+### Backend
+- Node.js
+- Express.js
+- MongoDB (assumed)
+
+## Project Structure
+
+```
+├── client/                 # Angular frontend
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── components/ # Reusable components
+│   │   │   ├── home/      # Home page components
+│   │   │   ├── layout/    # Layout components
+│   │   │   ├── modules/   # Feature modules
+│   │   │   ├── pipes/     # Custom pipes
+│   │   │   └── services/  # API services
+│   │   ├── assets/        # Static assets
+│   │   └── styles/        # Global styles
+│   └── ...
+└── server/                # Node.js backend
+    └── ...
+```
 
 ## Getting Started
 
 ### Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
-- Angular CLI: `npm install -g @angular/cli`
-- [Prime NG](https://primeng.org/)
+- Node.js (v18+)
+- npm or yarn
+- Angular CLI
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repository
+```bash
+git clone <repository-url>
+```
 
-   ```bash
-   git clone https://github.com/thecodedeck/angular-cc-1-client.git
-   ```
+2. Install frontend dependencies
+```bash
+cd client
+npm install
+```
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+3. Install backend dependencies
+```bash
+cd ../server
+npm install
+```
 
-## Usage
+### Development
 
-1. Run the development server:
-   ```bash
-   ng serve
-   ```
-2. Open your browser and navigate to http://localhost:4200/ to see the app in action.
+1. Start the backend server
+```bash
+cd server
+npm run dev
+```
+
+2. Start the Angular development server
+```bash
+cd client
+ng serve
+```
+
+The application will be available at `http://localhost:4200`
+
+## Features
+
+- Product listing and search
+- Shopping cart functionality
+- User authentication
+- Order management
+- Admin dashboard
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
