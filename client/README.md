@@ -1,9 +1,8 @@
 Angular 
-# E-Commerce Platform
 
-[![Angular](https://img.shields.io/badge/Angular-17+-red.svg)](https://angular.io/)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# FullStack E-Commerce Platform
+
+![FullStack E-Commerce Platform](https://github.com/yasin-erkan/Clothing-Angular/blob/main/Clothing.gif)
 
 A modern e-commerce platform built with Angular and Node.js.
 
