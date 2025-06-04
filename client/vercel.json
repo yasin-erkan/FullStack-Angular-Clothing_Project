@@ -5,7 +5,17 @@
       "destination": "/index.html"
     }
   ],
-  "buildCommand": "ng build",
-  "outputDirectory": "dist/client",
-  "framework": "angular"
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/tutorial",
+  "framework": "angular",
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
 } 
