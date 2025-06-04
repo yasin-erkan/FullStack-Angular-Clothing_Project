@@ -1,6 +1,8 @@
-Angular 
+Angular
 
 # FullStack E-Commerce Platform
+
+![Live Demo](https://full-stack-angular-clothing-project-mu.vercel.app)
 
 ![FullStack E-Commerce Platform](https://github.com/yasin-erkan/Clothing-Angular/blob/main/Clothing.gif)
 
@@ -9,12 +11,14 @@ A modern e-commerce platform built with Angular and Node.js.
 ## Tech Stack
 
 ### Frontend
+
 - Angular 17+
 - SCSS for styling
 - RxJS for reactive programming
 - Angular Material (optional)
 
 ### Backend
+
 - Node.js
 - Express.js
 - MongoDB (assumed)
@@ -41,6 +45,7 @@ A modern e-commerce platform built with Angular and Node.js.
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v18+)
 - npm or yarn
 - Angular CLI
@@ -48,17 +53,20 @@ A modern e-commerce platform built with Angular and Node.js.
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone <repository-url>
 ```
 
 2. Install frontend dependencies
+
 ```bash
 cd client
 npm install
 ```
 
 3. Install backend dependencies
+
 ```bash
 cd ../server
 npm install
@@ -67,12 +75,14 @@ npm install
 ### Development
 
 1. Start the backend server
+
 ```bash
 cd server
 npm run dev
 ```
 
 2. Start the Angular development server
+
 ```bash
 cd client
 ng serve
