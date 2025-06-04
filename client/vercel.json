@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    {
+      "source": "**",
+      "destination": "/index.html"
+    }
+  ],
+  "buildCommand": "ng build",
+  "outputDirectory": "dist/client",
+  "framework": "angular"
+} 
